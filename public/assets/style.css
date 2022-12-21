@@ -37,7 +37,6 @@
     -moz-hyphens: auto;
     font-family: 'Rubik', sans-serif;
     line-height: 2;
-    hyphens: auto;
 }
 *:focus {
     position: relative;
@@ -53,7 +52,7 @@ body, html {
     color: var(--color-foreground);
     background-color: var(--color-background);
     margin: 1rem;
-    padding: 0;
+    padding-bottom: 2rem;
 }
 html {
     font: -apple-system-body;
@@ -89,6 +88,10 @@ dl {
 dt {
     font-weight: bold;
     margin-top: 1em;
+}
+dd {
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .container {
