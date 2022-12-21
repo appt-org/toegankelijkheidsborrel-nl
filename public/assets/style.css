@@ -31,8 +31,13 @@
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: none;
     word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
     font-family: 'Rubik', sans-serif;
-    line-height: 1.5;
+    line-height: 2;
+    hyphens: auto;
 }
 *:focus {
     position: relative;
@@ -47,7 +52,8 @@ body, html {
     font-size: max(18px, 1rem);
     color: var(--color-foreground);
     background-color: var(--color-background);
-    margin: 0;
+    margin: 1rem;
+    padding: 0;
 }
 html {
     font: -apple-system-body;
@@ -78,7 +84,7 @@ a.button:hover {
 }
 
 dl {
-    margin: 2rem 0;
+    margin: 1.5rem 0;
 }
 dt {
     font-weight: bold;
@@ -93,10 +99,6 @@ dt {
 h1 {
     font-size: 2rem;
     font-weight: normal;
-    margin: 2rem 0 1rem 0;
+    margin: 0;
     line-height: 1.25;
-}
-
-p {
-    line-height: 2;
 }
