@@ -94,6 +94,10 @@ dd {
     padding-left: 0;
 }
 
+summary {
+  cursor: pointer;
+}
+
 .container {
     max-width: 44rem;
     margin: 0 auto;
